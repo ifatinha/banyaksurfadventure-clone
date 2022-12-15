@@ -14,3 +14,4 @@ font-family: 'Open Sans', sans-serif;
 /* Layout */
 @import "layout/header.css";
 @import "layout/main.css";
+@import "layout/about.css";

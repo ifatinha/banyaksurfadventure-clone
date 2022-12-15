@@ -3,7 +3,10 @@
     background-repeat: no-repeat;
     background-position: 50% -100px;
     background-size: contain;
+    flex-direction: column;
     height: 2000px;
+    justify-content: flex-end;
+    background-color: darkblue;
 }
 
 @media screen and (max-width: 991px) {
