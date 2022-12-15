@@ -1,0 +1,21 @@
+.main {
+    background-image: url("../../images/banyak_surf_adventure_headerBG.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% -100px;
+    background-size: contain;
+    height: 2000px;
+}
+
+@media screen and (max-width: 991px) {
+    .main {
+        background-position: 50% 0%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        background-position: 50% 0%;
+        background-size: 130%;
+        margin-top: 0px;
+    }
+}

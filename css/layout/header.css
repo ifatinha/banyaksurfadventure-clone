@@ -1,0 +1,85 @@
+.header {
+    background-color: transparent;
+    border-bottom: 1px solid hsla(0, 0%, 89.4%, 0.4);
+    padding: 10px 24px;
+    position: absolute;
+    width: 100%;
+}
+
+.header-container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    flex: 0 1 50px;
+    height: 50px;
+}
+
+.nav-primary ul a {
+    background-color: transparent;
+    border-radius: 4px;
+    color: var(--white);
+    font-size: var(--fonte-14);
+    line-height: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.a-select {
+    font-weight: 800;
+}
+
+.nav-primary ul a:hover {
+    background-color: rgba(14, 66, 145, 0.07);
+}
+
+.nav-primary-mobile {
+    background-image: url("../../images/menu-aberto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+    height: 40px;
+    width: 40px;
+}
+
+.nav-primary-mobile .menu-mobile {
+    background-color: var(--white);
+    display: none;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 70px;
+    width: 100%
+}
+
+.nav-primary-mobile .menu-mobile li {
+    border-bottom: 1px solid var(--light-gray);
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+.nav-primary-mobile .menu-mobile a {
+    color: var(--dark-blue);
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-primary-mobile:hover .menu-mobile {
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        /* background-color: var(--white); */
+    }
+
+    .nav-primary {
+        display: none;
+    }
+
+    .nav-primary-mobile {
+        display: block;
+    }
+}

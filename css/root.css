@@ -5,6 +5,12 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 
-/* Estilos Gerais */
+/* Reset and general styles */
 @import "base/minireset.min.css";
 @import "base/base.css";
+@import "base/generics.css";
+@import "base/tipografia.css";
+
+/* Layout */
+@import "layout/header.css";
+@import "layout/main.css";
