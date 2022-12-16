@@ -1,0 +1,43 @@
+#spots .titulo {
+    margin-bottom: 60px;
+}
+
+.spots-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 20px;
+}
+
+.spots-item {
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.spots-img img {
+    border-radius: 10px 10px 0 0;
+}
+
+.spots-desc {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.spots-desc :is(h2, p) {
+    font-family: "Open sans", sans-serif;
+}
+
+.spots-desc h2 {
+    color: var(--dark-blue);
+    font-size: var(--fonte-22);
+    font-weight: 800;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.spots-desc p {
+    color: var(--light-blue);
+    font-size: var(--fonte-12);
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 10px;
+}

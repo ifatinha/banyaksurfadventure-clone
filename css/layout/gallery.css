@@ -1,0 +1,66 @@
+#gallery .paragrafo {
+    margin-bottom: 40px;
+}
+
+.gallery-container {
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    grid-template-rows: repeat(4, 280px);
+    grid-auto-rows: 280px;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    position: relative;
+
+}
+
+.gallery-img {
+    height: 100%;
+    transition: .5s ease;
+    width: 100%;
+}
+
+.gallery-img :is(img, video) {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-img-desc {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: var(--white);
+    cursor: pointer;
+    flex-direction: column;
+    font-size: var(--fonte-14);
+    height: 100%;
+    justify-content: center;
+    line-height: 20px;
+    left: 0;
+    opacity: 0;
+    padding: 0 28px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    width: 100%;
+}
+
+.gallery-btn {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.galley-btn {
+    font-size: var(--fonte-14);
+    padding: 6px 24px;
+    width: 228px;
+}
+
+.gallery-item:hover .gallery-img-desc {
+    opacity: 1;
+    visibility: visible;
+}

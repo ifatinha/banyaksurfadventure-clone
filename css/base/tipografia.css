@@ -1,7 +1,17 @@
 :root {
     --white: #ffffff;
+    --gray: #f4f5f9;
     --light-gray: #e4ecf6;
     --dark-blue: #343e52;
-    
+    --light-blue: #162540;
+    --black: #000000;
+    --ligth-black: #1a1a1a;
+    --blue: #23d9e3;
+
+    --fonte-12: 0.75rem;
     --fonte-14: 0.875rem;
+    --fonte-22: 1.375rem;
+    --fonte-30: 1.875rem;
+    --fonte-60: 3.75rem;
+    --fonte-100: 6.25rem;
 }

@@ -1,0 +1,56 @@
+.camp-galeria {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.camp-slider img {
+    border-radius: 8px;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.arrow {
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    width: 48px;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.camp-paragrafo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.camp-paragrafo span {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    .camp {
+        padding-top: 175px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .camp {
+        padding-top: 80px;
+    }
+
+    .camp-paragrafo {
+        grid-template-columns: 1fr;
+    }
+
+    .camp-slider img {
+        height: 600px;
+    }
+}

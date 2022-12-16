@@ -1,3 +1,49 @@
-.about{
-    margin-top: -915px;
+.about {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    margin-top: -850px;
+    width: 100%;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 40px;
+}
+
+.titulo {
+    grid-column: 1 / -1;
+}
+
+.about-item {
+    align-self: start;
+}
+
+.about-img {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 920px) {
+    .about {
+        margin-top: -1381px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        margin-top: -1537px;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+
+    .about-img {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        margin-top: -1721px;
+    }
 }

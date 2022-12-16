@@ -1,0 +1,51 @@
+.booking-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+#booking .paragrafo span {
+    font-weight: 800;
+}
+
+#booking .paragrafo a {
+    text-decoration: underline;
+}
+
+.booking-info {
+    align-self: center;
+}
+
+.booking-form {
+    width: 100%;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.form-item {
+    width: 100%;
+}
+
+.form-item label {
+    color: var(--white);
+    display: block;
+    font-size: var(--fonte-12);
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 8px;
+}
+
+.form-item :is(input, textarea) {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .booking-container {
+        grid-template-columns: 1fr;
+    }
+}
