@@ -35,7 +35,7 @@
 }
 
 .nav-primary-mobile {
-    background-image: url("../../images/menu-aberto.png");
+    background-image: url("./../images/menu-aberto.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
