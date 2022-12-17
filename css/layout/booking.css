@@ -62,19 +62,19 @@
 }
 
 .form-item input#name {
-    background-image: url("../../images/5fb58d8a42a8bd539d5f360e_icons8-contacts-64.png");
+    background-image: url("./../images/5fb58d8a42a8bd539d5f360e_icons8-contacts-64.png");
 }
 
 .form-item input#email {
-    background-image: url("../../images/5fb58d77a1fc9211ffbaa6f3_icons8-secured-letter-64.png");
+    background-image: url("./../images/5fb58d77a1fc9211ffbaa6f3_icons8-secured-letter-64.png");
 }
 
 .form-item input#group {
-    background-image: url("../../images/5fb58d78a1fc925389baa71f_icons8-box-64.png");
+    background-image: url("./../images/5fb58d78a1fc925389baa71f_icons8-box-64.png");
 }
 
 .form-item textarea#message {
-    background-image: url("../../images/5fb58d8a42a8bdd8d85f3610_icons8-edit-80.png");
+    background-image: url("./../images/5fb58d8a42a8bdd8d85f3610_icons8-edit-80.png");
     background-position: 8px 8px;
 }
 
